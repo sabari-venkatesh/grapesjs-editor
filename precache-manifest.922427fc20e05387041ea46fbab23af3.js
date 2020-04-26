@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a0ca5e916bf4886a98000e848c2feb1",
+    "revision": "107b2c75f39133b4678b2f61bcde6a62",
     "url": "/grapesjs-editor/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/grapesjs-editor/static/css/2.46236851.chunk.css"
   },
   {
-    "revision": "da0a19bb55bf6f280689",
+    "revision": "9b66e46e2fd3e44ccf78",
     "url": "/grapesjs-editor/static/css/main.67f4a746.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/grapesjs-editor/static/js/2.fab7dc4d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "da0a19bb55bf6f280689",
-    "url": "/grapesjs-editor/static/js/main.84dcc406.chunk.js"
+    "revision": "9b66e46e2fd3e44ccf78",
+    "url": "/grapesjs-editor/static/js/main.1efc71c0.chunk.js"
   },
   {
     "revision": "4f2959f8fdc50f618d8b",
