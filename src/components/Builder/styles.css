@@ -1,0 +1,41 @@
+.builder {
+  display: grid;
+  grid-template-columns: auto repeat(11, 1fr);
+  grid-template-rows: auto repeat(5, 1fr);
+  gap: 0 0;
+  grid-template-areas: "blocks blocks panels panels panels panels panels panels panels panels styles styles" "blocks blocks canvas canvas canvas canvas canvas canvas canvas canvas styles styles" "blocks blocks canvas canvas canvas canvas canvas canvas canvas canvas styles styles" "blocks blocks canvas canvas canvas canvas canvas canvas canvas canvas styles styles" "blocks blocks canvas canvas canvas canvas canvas canvas canvas canvas styles styles" "blocks blocks canvas canvas canvas canvas canvas canvas canvas canvas styles styles";
+  flex: 1;
+}
+
+.blocks {
+  /* grid-area: blocks; */
+  grid-area: 1 / 1 / 7 / 3;
+  background: #444;
+}
+
+.panels {
+  /* grid-area: panels; */
+  grid-area: 1 / 3 / 2 / 11;
+  position: initial;
+}
+
+.styles {
+  /* grid-area: styles; */
+  grid-area: 1 / 11 / 7 / 13;
+}
+
+.canvas {
+  /* grid-area: canvas; */
+  grid-area: 2 / 3 / 7 / 11;
+}
+
+.gjs-cv-canvas {
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  top: 0;
+}
+
+.gjs-pn-buttons {
+  justify-content: flex-end;
+}
