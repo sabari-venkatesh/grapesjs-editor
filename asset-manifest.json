@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.67f4a746.chunk.css",
-    "main.js": "/static/js/main.f2afab94.chunk.js",
-    "main.js.map": "/static/js/main.f2afab94.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.28875429.js",
-    "runtime-main.js.map": "/static/js/runtime-main.28875429.js.map",
-    "static/css/2.b6fcaa6e.chunk.css": "/static/css/2.b6fcaa6e.chunk.css",
-    "static/js/2.fab7dc4d.chunk.js": "/static/js/2.fab7dc4d.chunk.js",
-    "static/js/2.fab7dc4d.chunk.js.map": "/static/js/2.fab7dc4d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.352166d5ae6967e4145ea30ff6972db0.js": "/precache-manifest.352166d5ae6967e4145ea30ff6972db0.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.b6fcaa6e.chunk.css.map": "/static/css/2.b6fcaa6e.chunk.css.map",
-    "static/css/main.67f4a746.chunk.css.map": "/static/css/main.67f4a746.chunk.css.map",
-    "static/js/2.fab7dc4d.chunk.js.LICENSE.txt": "/static/js/2.fab7dc4d.chunk.js.LICENSE.txt",
-    "static/media/grapes.min.css": "/static/media/main-fonts.f7c56e52.eot"
+    "main.css": "/grapesjs-editor/static/css/main.67f4a746.chunk.css",
+    "main.js": "/grapesjs-editor/static/js/main.86c0963c.chunk.js",
+    "main.js.map": "/grapesjs-editor/static/js/main.86c0963c.chunk.js.map",
+    "runtime-main.js": "/grapesjs-editor/static/js/runtime-main.e6d31466.js",
+    "runtime-main.js.map": "/grapesjs-editor/static/js/runtime-main.e6d31466.js.map",
+    "static/css/2.46236851.chunk.css": "/grapesjs-editor/static/css/2.46236851.chunk.css",
+    "static/js/2.fab7dc4d.chunk.js": "/grapesjs-editor/static/js/2.fab7dc4d.chunk.js",
+    "static/js/2.fab7dc4d.chunk.js.map": "/grapesjs-editor/static/js/2.fab7dc4d.chunk.js.map",
+    "index.html": "/grapesjs-editor/index.html",
+    "precache-manifest.2ddf477fd5c06bf154ba132ab5dddac3.js": "/grapesjs-editor/precache-manifest.2ddf477fd5c06bf154ba132ab5dddac3.js",
+    "service-worker.js": "/grapesjs-editor/service-worker.js",
+    "static/css/2.46236851.chunk.css.map": "/grapesjs-editor/static/css/2.46236851.chunk.css.map",
+    "static/css/main.67f4a746.chunk.css.map": "/grapesjs-editor/static/css/main.67f4a746.chunk.css.map",
+    "static/js/2.fab7dc4d.chunk.js.LICENSE.txt": "/grapesjs-editor/static/js/2.fab7dc4d.chunk.js.LICENSE.txt",
+    "static/media/grapes.min.css": "/grapesjs-editor/static/media/main-fonts.f7c56e52.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.28875429.js",
-    "static/css/2.b6fcaa6e.chunk.css",
+    "static/js/runtime-main.e6d31466.js",
+    "static/css/2.46236851.chunk.css",
     "static/js/2.fab7dc4d.chunk.js",
     "static/css/main.67f4a746.chunk.css",
-    "static/js/main.f2afab94.chunk.js"
+    "static/js/main.86c0963c.chunk.js"
   ]
 }
