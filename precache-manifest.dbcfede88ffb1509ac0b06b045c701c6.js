@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "825b8a842724bc40c966a4967b7aaf19",
+    "revision": "9aae821610b074a18609cd271fb90215",
     "url": "/grapesjs-editor/index.html"
   },
   {

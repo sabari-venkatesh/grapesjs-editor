@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/grapesjs-editor/precache-manifest.8e9d10e1f6e934619f209d8f69585f27.js"
+  "/grapesjs-editor/precache-manifest.dbcfede88ffb1509ac0b06b045c701c6.js"
 );
 
 self.addEventListener('message', (event) => {
