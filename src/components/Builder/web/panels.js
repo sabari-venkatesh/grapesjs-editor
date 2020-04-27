@@ -11,7 +11,6 @@ import {
 export default (editor, config) => {
   const panelManager = editor.Panels;
   const eConfig = editor.getConfig();
-  console.log(config.isTemplate);
   panelManager.addPanel({
     id: "actions",
     el: config.panelRef,

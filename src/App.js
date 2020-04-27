@@ -14,13 +14,13 @@ import NoMatch from "./views/NoMatch";
 const routes = [
   {
     title: "Template",
-    path: "/",
+    path: `${process.env.PUBLIC_URL}/`,
     component: Template,
     exact: true,
   },
   {
     title: "Content",
-    path: "/content",
+    path: `${process.env.PUBLIC_URL}/content`,
     component: Content,
   },
 ];

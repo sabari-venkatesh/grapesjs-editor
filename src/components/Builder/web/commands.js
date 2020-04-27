@@ -12,7 +12,5 @@ export default (editor, { txtConfirm }) => {
   cm.add(LOAD, (e) => {
     e.load((res) => console.log("load callback", res));
   });
-  cm.add(STORE, (e) =>
-    console.log(e.store((res) => console.log("Store callback", res)))
-  );
+  cm.add(STORE, (e) => e.store((res) => console.log("Store callback", res)));
 };

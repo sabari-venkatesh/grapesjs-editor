@@ -4,6 +4,7 @@ import loadComponents from "./components";
 import loadPanels from "./panels";
 import loadCommands from "./commands";
 import loadStyles from "./styles";
+import loadRTE from "./rte";
 export default grapesjs.plugins.add("webpage", (editor, opts = {}) => {
   let config = opts;
   let defaults = {
@@ -20,4 +21,5 @@ export default grapesjs.plugins.add("webpage", (editor, opts = {}) => {
   loadCommands(editor, config);
   loadPanels(editor, config);
   loadStyles(editor, config);
+  // loadRTE(editor, config);
 });

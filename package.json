@@ -2,18 +2,23 @@
   "name": "template-editor",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sabarigr.github.io/grapesjs-editor",
   "dependencies": {
+    "@ckeditor/ckeditor5-build-inline": "^18.0.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "ckeditor4": "^4.14.0",
     "grapesjs": "^0.16.12",
+    "grapesjs-plugin-ckeditor": "0.0.9",
+    "quill": "^1.3.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.0.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "react-snap": "^1.23.0",
-    "grapesjs-plugin-ckeditor": "0.0.9"
+    "tinymce": "^5.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,7 +26,8 @@
     "postbuild": "react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -s build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
